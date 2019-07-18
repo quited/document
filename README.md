@@ -12,7 +12,7 @@ This repo is used to store some resources of some technical details of wasm.
 ## Articles
 [Example insight: add in c](article/add_example.md)
 
-[Development Environment Setup](article/setup_env.md)
+[Setup Development Environment](article/setup_env.md)
 
 ## References
 [fuckWasm:A referential implementation of wasm binary format decoder in go](https://github.com/chfanghr/wasm-insight/tree/master/fuckWasm)
