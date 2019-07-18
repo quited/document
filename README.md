@@ -17,6 +17,7 @@ This repo is used to store some resources of some technical details of wasm.
 ## References
 [fuckWasm:A referential implementation of wasm binary format decoder in go](https://github.com/chfanghr/wasm-insight/tree/master/fuckWasm)
 
+[WebAssembly table imports… what are they?](https://hacks.mozilla.org/2017/07/webassembly-table-imports-what-are-they/?from=singlemessage&isappinstalled=0)
 ## License
 MIT
 
