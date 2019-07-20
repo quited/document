@@ -51,6 +51,19 @@ We use Typora to create Markdown files, temporarily.
 
 
 
+### UML Tool
+
+For compatibility with VCS systems, we use PlantUML to generate visual UML map from plain text.
+
+To edit these **.plantuml** files, we use **VSCode** with these following two plug-ins:
+
++ **PlantUML v2.11.2**
++ **Yog PlantUML Highlight v0.0.5**
+
+And **Graphviz** is needed in the visual map generation, **v2.38** had been tested.
+
+
+
 ### Flashing Tool
 
 To work with CLion, we use **OpenOCD** as flashing and debugging tool.

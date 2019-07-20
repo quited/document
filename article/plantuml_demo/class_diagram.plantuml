@@ -1,0 +1,91 @@
+@startuml
+
+class Class01 {
+    String Data
+    void getData()
+}
+
+class Class02 {
+    + String public
+    - String private
+    # String protected
+    ~ String packagePrivate
+}
+
+class Class03 <? Type>{
+    hello
+    --
+    hi
+    ==
+    how are you
+    ..
+    how are you
+    -- end --
+    bye
+}
+
+class Class04 {
+    {static} String static
+    {abstract} String abstract
+}
+
+class Class08 << (H,#FF7700) Singleton >>
+
+package Package <<Cloud>> {
+    class Class1
+    class Class2
+    class Class3
+    Class3 <|-- Class1 : hello
+    Class3 o.. Class2 : hi
+}
+
+package Package.copy <<Cloud>> {
+    class Class111
+    class Class222
+    class Class333
+    Class333 <|-- Class111 : hello
+    Class333 o.. Class222 : hi
+}
+
+Package.copy --+ Package
+
+note top of Class04: HelloNote
+note "this is a Note" as N1
+N1 --* Class01
+
+note top of Class07
+    hello
+    <del>HTML</del>
+end note
+
+namespace a {
+    class Class01
+    class Class02
+}
+
+set namespaceSeparator ::
+
+class X1::X2::cla {
+    String data
+}
+
+abstract class Class11
+interface Class12
+
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+Class05 o.. Class07
+Class03 <--|> Class08
+Class09 "hello" o..o "hi" Class10: connect
+Class11 -- Class12 : owns >
+Class11 o- Class13 : belongs <
+
+bar ()- Class13
+
+Class14 <-Left- Class13
+
+Class15 "hello" -- "hi" Class16
+(Class15,Class16)..Class17
+
+@enduml
