@@ -14,6 +14,8 @@ This repo is used to store some resources of some technical details of wasm.
 
 [Setup Development Environment](article/setup_env.md)
 
+[Use PlantUML](article/plantuml.md)
+
 ## References
 [fuckWasm:A referential implementation of wasm binary format decoder in go](https://github.com/chfanghr/wasm-insight/tree/master/fuckWasm)
 
