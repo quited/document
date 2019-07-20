@@ -41,13 +41,13 @@ When finished installing CLion and Toolchains, you may need to check if they hav
 
 ### Project Generating Tool
 
-To create embedded projects automatically, we use **STM32CubeMX** to Generate projects that can be load into CLion.
+To create embedded projects automatically, we use **STM32CubeMX** to Generate projects that can be loaded into CLion.
 
 
 
 ### Documenting Tool
 
-I use Typora to create Markdown files, temporarily.
+We use Typora to create Markdown files, temporarily.
 
 
 
