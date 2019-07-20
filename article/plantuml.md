@@ -14,3 +14,4 @@
 
 [demo **.plantuml** file](plantuml_demo/class_diagram.plantuml)
 
+![demo img](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/quited/document/master/article/plantuml_demo/class_diagram.plantuml)
